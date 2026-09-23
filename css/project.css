@@ -1,4 +1,10 @@
-
+div{
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: space-evenly;
+  align-items: center;
+  row-gap:inherit;
+}
 
 body{
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -15,6 +21,7 @@ background-color: yellowgreen;
 line-height: 100px;
 }
 
+/* El elemento li no llevará ningún estilo en particular*/
 li{
   display: inline-block;
   list-style-type: none;
@@ -56,3 +63,4 @@ p{
   text-transform: uppercase;
   border-bottom: 4px solid black;
 }
+
